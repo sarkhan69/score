@@ -25,12 +25,12 @@ public class Entity {
     }
 
     private String getTeamOne(String string3) {
-        String[] arr = string3.split("-");
+        String[] arr = string3.split(" - ");
         return arr[0];
     }
 
     private String getTeamTwo(String string3) {
-        String[] arr = string3.split("-");
+        String[] arr = string3.split(" - ");
         return arr[1];
     }
 
